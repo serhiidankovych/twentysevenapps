@@ -1,3 +1,9 @@
+---
+title: Privacy Policy – Deadsign
+layout: default
+---
+
+
 # Privacy Policy
 
 **Effective Date:** 2026-02-07
