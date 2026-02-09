@@ -3,10 +3,9 @@ title: Privacy Policy – Deadsign
 layout: default
 ---
 
-
 # Privacy Policy
 
-**Effective Date:** 2026-02-07
+**Effective Date:** 2026-02-09
 
 This Privacy Policy applies to the **Deadsign** mobile application (the **“Application”**) developed by **Serhii Dankovych** (the **“Service Provider”**) and provided as a **Free** service. The Application is provided **“AS IS”**, without warranties of any kind.
 
@@ -23,7 +22,7 @@ All data you enter into the Application is stored **only on your device** via lo
 * Country
 * Life expectancy
 
-From this information, the Application calculates derived values (such as age, weeks lived, and visual life tables) locally. 
+From this information, the Application calculates derived values (such as age, weeks lived, and visual life tables) locally.
 
 ### Log Data
 The Application does **not** collect:
@@ -33,26 +32,24 @@ The Application does **not** collect:
 * Location data
 * Analytics or usage statistics
 
-## 2. Image Generation and Local File Storage
+## 2. Image Generation and File Handling
 
 The Application includes features that allow you to generate visual representations (such as Life Table images).
 
 ### Local Processing
-All image generation occurs **entirely on your device**. Images are temporarily cached in the Application’s internal sandbox storage.
+All image generation occurs **entirely on your device**. Images are temporarily cached in the Application’s internal sandbox storage for display or sharing purposes.
 
-### Media Library Access
-If you choose to save a generated image to your device’s photo gallery, the Application will request permission to access your media library (e.g., `READ_MEDIA_IMAGES` or Photo Library permissions).
-
-This permission is used **solely** to export the image you created to your local gallery. The Application:
-* Does **not** scan or analyze your existing photos.
-* Does **not** extract metadata from your library.
-* Does **not** upload your photos to any server.
+### Saving and Sharing
+If you choose to save or share a generated image, the Application utilizes standard system sharing capabilities.
+* The Application does **not** require direct access permissions to your photo gallery or media library.
+* The Application does **not** scan, analyze, or extract metadata from your existing photos.
+* The Application does **not** upload your generated images to any server.
 
 ## 3. Notifications and Alarms
 
 The Application uses **local notifications** to provide reminders.
 
-On Android devices, permissions such as `POST_NOTIFICATIONS`, `SCHEDULE_EXACT_ALARM`, and `USE_EXACT_ALARM` are utilized. These permissions are required **only** to ensure notifications are delivered at the specific times scheduled by the user.
+On Android devices, permissions such as `POST_NOTIFICATIONS` and `SCHEDULE_EXACT_ALARM` are utilized. These permissions are required **only** to ensure notifications are delivered at the specific times scheduled by the user.
 
 All notifications are scheduled locally. No notification data is sent to external push notification services (such as FCM or APNs).
 
